@@ -13,6 +13,8 @@
  }
 
  function clearCount() {
+    count = 0
+    countEl.textContent = count
     saveEl.innerText = "Previous Entries: "
  }
 
