@@ -29,7 +29,19 @@ button {
     border-radius: 10px;
     width: 250px;
     color:bisque;
+    margin-bottom: 10px;
 }
 #increment-btn {
     background-color:rgb(54, 51, 47);
 }
+#clear-btn {
+    background-color:rgb(54, 51, 47);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
