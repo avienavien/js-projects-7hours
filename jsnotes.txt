@@ -1,0 +1,5 @@
+largeCountries.pop() // removes last item in array
+largeCountries.push("Pakistan") // adds the last item in the array 
+largeCountries.shift() // removes FIRST item in the array
+largeCountries.unshift("China") //adds first item in the array
+console.log(largeCountries)
